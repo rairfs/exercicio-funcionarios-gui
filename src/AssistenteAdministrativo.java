@@ -14,6 +14,7 @@ public class AssistenteAdministrativo extends Funcionario {
     public AssistenteAdministrativo (){
         Random r = new Random ();
         salario = 500 + 1000 * r.nextFloat();
+        strCategoria = "Assistente Administrativo";
         categoria = 0;
     }
 }

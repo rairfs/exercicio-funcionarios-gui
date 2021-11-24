@@ -14,6 +14,7 @@ public class EngenheiroJunior extends Funcionario {
     public EngenheiroJunior(){
         Random r = new Random();
         salario = 1000 + 1500 * r.nextFloat();
+        strCategoria = "Engenheiro Junior";
         categoria = 1;
     }
     
